@@ -59,16 +59,6 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <!--<DataGridTemplateColumn Header="Image" 
-                                            Width="SizeToCells"
-                                            IsReadOnly="True">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <Image Source="{Binding Path=Image}" />
-                            </DataTemplate>
-                        </DataGridTemplateColum-->
-                    <!--</DataGridTemplateColumn>-->
-
                     <DataGridTemplateColumn Header="Game Title">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
@@ -94,7 +84,7 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <DataGridTemplateColumn Header="OG Price">
+                    <DataGridTemplateColumn Header="Original Price">
                         <DataGridTemplateColumn.HeaderStyle>
                             <Style TargetType="{x:Type DataGridColumnHeader}">
                                 <Setter Property="HorizontalAlignment" 
