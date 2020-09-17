@@ -39,7 +39,6 @@ namespace WebScraper
             foreach (var article in Articles)
             {
                 var gameTitle = HttpUtility.HtmlDecode(article.SelectSingleNode(".//*[@class = 'h6 name']").InnerText.Trim());
-                //var image = HttpUtility.HtmlDecode(article.SelectSingleNode(".//*[@src]").InnerText);
                 var originalPrice = HttpUtility.HtmlDecode(article.SelectSingleNode(".//*[@class = 'text-muted']").InnerText.Trim());
                 var salePrice = HttpUtility.HtmlDecode(article.SelectSingleNode("div").InnerText);
                 var store = HttpUtility.HtmlDecode(article.SelectSingleNode(".//*[@class = 'w-100']").InnerText.Trim());
